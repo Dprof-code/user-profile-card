@@ -6,7 +6,4 @@ function updateTime() {
   timeContainer.textContent = milliseconds;
 }
 
-setInterval(updateTime, 1);
-updateTime(); // Initial call to display time immediately
 setInterval(updateTime, 1000);
-updateTime(); // Initial call to display time immediately

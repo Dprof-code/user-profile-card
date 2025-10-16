@@ -10,11 +10,11 @@ Follow these simple steps to get the project up and running on your local machin
 
 *   **Clone the Repository**:
     ```bash
-    git clone https://github.com/Dprof-code/profile-card.git
+    git clone https://github.com/Dprof-code/user-profile-card.git
     ```
 *   **Navigate to Project Directory**:
     ```bash
-    cd profile-card
+    cd user-profile-card
     ```
 *   **Open in Browser**:
     Simply open the `index.html` file in your preferred web browser to view the profile card.

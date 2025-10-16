@@ -83,7 +83,7 @@ main {
 
 .profile-title {
   font-size: 0.95rem;
-  color: #3498db;
+  color: #101630;
   font-weight: 500;
 }
 
@@ -102,7 +102,7 @@ main {
   background-color: #f9f9f9;
   padding: 0.875rem;
   border-radius: 6px;
-  border-left: 3px solid #3498db;
+  border-left: 3px solid #101630;
 }
 
 .dislikes {
@@ -137,9 +137,9 @@ main {
 }
 
 .hobby-item:hover {
-  background-color: #3498db;
+  background-color: #101630;
   color: #ffffff;
-  border-color: #3498db;
+  border-color: #101630;
   cursor: default;
 }
 
@@ -186,9 +186,9 @@ main {
 }
 
 .social-link:hover {
-  background-color: #3498db;
+  background-color: #101630;
   transform: translateY(-2px);
-  box-shadow: 0 3px 10px rgba(52, 152, 219, 0.3);
+  box-shadow: 0 3px 10px rgba(16, 22, 48, 0.3);
 }
 
 .social-link:active {
@@ -207,7 +207,7 @@ main {
 }
 
 .current-time i {
-  color: #3498db;
+  color: #101630;
   font-size: 0.9rem;
 }
 
