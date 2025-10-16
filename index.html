@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile Card</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  </head>
+  <body>
+    <main>
+      <article class="profile-card" data-testid="test-profile-card">
+        <div class="left-side">
+          <figure class="profile-figure" aria-label="User Profile Picture">
+            <img
+              src="https://res.cloudinary.com/dcxknkwjn/image/upload/v1760626822/IMG_2000_copy_1_yodz6j.jpg"
+              alt="Profile Picture"
+              class="profile-image"
+              data-testid="test-user-avatar"
+            />
+          </figure>
+        </div>
+
+        <div class="right-side">
+        <header class="profile-header">
+          <h2
+            class="profile-name"
+            data-testid="test-user-name"
+            aria-label="User Name"
+          >
+            Adedamola Olawale
+          </h2>
+          <p class="profile-title" data-testid="test-user-title">
+            Web Developer
+          </p>
+        </header>
+        <section class="profile-bio">
+          <p data-testid="test-user-bio">
+            Passionate about building scalable web applications and working with
+            cutting-edge technologies. In my free time, I enjoy watching movies and
+            sleeping.
+          </p>
+        </section>
+        <section class="hobbies">
+          <h3 class="hobbies-title">Hobbies</h3>
+          <ul class="hobbies-list" data-testid="test-user-hobbies">
+            <li class="hobby-item" data-testid="test-user-hobby">Coding</li>
+            <li class="hobby-item" data-testid="test-user-hobby">
+              Movies
+            </li>
+            <li class="hobby-item" data-testid="test-user-hobby">Sleeping</li>
+          </ul>
+        </section>
+        <section class="dislikes">
+          <h3 class="dislikes-title">Dislikes</h3>
+          <ul class="dislikes-list" data-testid="test-user-dislikes">
+            <li class="dislike-item" data-testid="test-user-dislike">
+              Loud Noises
+            </li>
+            <li class="dislike-item" data-testid="test-user-dislike">
+              Crowded Places
+            </li>
+            <li class="dislike-item" data-testid="test-user-dislike">
+              Lies
+            </li>
+          </ul>
+        </section>
+        <div class="footer-wrapper">
+          <footer class="profile-footer">
+            <nav class="social-links" data-testid="test-user-social-links">
+              <a
+                href="https://prodevx.site"
+                class="social-link"
+                aria-label="Portfolio Website"
+                data-testid="test-user-social-portfolio"
+                title="Portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fas fa-briefcase"></i></a
+              >
+              <a
+                href="https://github.com/Dprof-code"
+                class="social-link"
+                aria-label="GitHub Profile"
+                data-testid="test-user-social-github"
+                title="GitHub"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-github"></i></a
+              >
+              <a
+                href="https://x.com/pr0devs"
+                class="social-link"
+                aria-label="Twitter Profile"
+                data-testid="test-user-social-twitter"
+                title="Twitter"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-twitter"></i></a
+              >
+            </nav>
+          </footer>
+          <section class="current-time">
+            <i class="far fa-clock"></i>
+            <p class="current-time-value" id="current-time" data-testid="test-user-time"></p>
+          </section>
+        </div>
+        </div>
+      </article>
+    </main>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
